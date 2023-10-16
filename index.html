@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-Web Player: Music for everyone</title>
+</head>
+ <style>
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    #sidebar{
+        height: 1000px;
+        width: 20%;
+        background-color: #121212;
+        flex-direction: column;
+    }
+    #logo{
+        /* border: 2px red solid; */
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+    #Home{
+        /* border: 2px red solid; */
+        height: 17px;
+        margin-top: 50px;
+        margin-left: 35px;
+        margin-top: 30px;
+        
+    }
+    #search{
+        /* border: 2px red solid; */
+        height: 17px;
+        margin-top: 15px;
+        margin-left: 35px;
+        margin-top: 30px;
+    }
+    #library{
+        /* border: 2px red solid; */
+        height: 17px;
+        margin-top: 15px;
+        margin-left: 35px;
+        margin-top: 30px;
+    }
+    #create{
+        /* border: 2px red solid; */
+        height: 17px;
+        margin-top: 30px;
+        margin-left: 35px;
+        margin-top: 30px;
+    }
+    #liked{
+        /* border: 2px red solid; */
+        height: 17px;
+        margin-top: 9px;
+        margin-left: 35px;
+    }
+    #episodes{
+        /* border: 2px red solid; */
+        height: 17px;
+        margin-top: 9px;
+        margin-left: 35px;
+    }
+    #home{
+        /* border: 2px red solid; */
+        color: white;
+        position: absolute;
+        margin-left: 37px;
+        margin-top: 50px;
+    }
+    #search1{
+        /* border: 2px red solid; */
+        color: white;
+        position: absolute;
+        margin-left: 36px;
+        margin-top: 14px;
+    }
+    #library2{
+        /* border: 2px red solid; */
+        color: white;
+        position: absolute;
+        margin-left: 36px;
+        margin-top: 14px;
+    }
+    #create2{
+        /* border: 2px red solid; */
+        color: white;
+        position: absolute;
+        margin-left: 36px;
+        margin-top: 28px;
+    }
+    #liked2{
+        /* border: 2px red solid; */
+        color: white;
+        position: absolute;
+        margin-left: 36px;
+        margin-top: 8px;
+    }
+    #episodes2{
+        /* border: 2px red solid; */
+        color: white;
+        position: absolute;
+        margin-left: 36px;
+        margin-top: 8px;
+    }
+    #fav{
+        /* border: 2px red solid; */
+        color: white;
+        position: absolute;
+        margin-top: 25px;
+        margin-left: 33px;
+    }
+    #daily{
+        /* border: 2px red solid; */
+        color: white;
+        position: absolute;
+        margin-top: 50px;
+        margin-left: 33px;
+    }
+    #discover{
+        /* border: 2px red solid; */
+        color: white;
+        position: absolute;
+        margin-top: 75px;
+        margin-left: 33px;
+    }
+    #malyalam{
+        /* border: 2px red solid; */
+        color: white;
+        position: absolute;
+        margin-top: 75px;
+        margin-left: 33px;
+    }
+    #musicbar
+    {
+    background-color:black;
+    border-radius: 2px solid red;
+    width: 80%;
+    height: 1000px;
+    }
+    #musicplaylist{
+        width: 80%;
+        height: 1000px;
+        border-radius: 2px solid red; 
+        display: flex; 
+        flex-direction: row; 
+        align-items: center;
+    }
+
+    
+    
+
+ </style>
+<body>
+    <div id="sidebar"> 
+        <img id="logo" src="Spotify logo.png" alt="">
+        <div><img id="Home" src="Home.png" alt="">
+         <span id="home">Home</span>
+        </div>
+        <div><img id="search" src="Search.png" alt="">
+            <span id="search1">Search</span>
+        </div>
+        <div><img id="library" src="library.png" alt="">
+            <span id="library2"> Your library </span>
+        </div>
+        <div><img id="create" src="create.png" alt="">
+            <span id="create2"> Create Playlist </span>
+        </div>
+        <div><img id="liked" src="liked.png" alt="">
+            <span id="liked2"> Liked Songs </span>
+        </div>
+        <div><img id="episodes" src="episodes.png" alt="">
+            <span id="episodes2"> Your Episodes </span>
+        </div>
+        <div> 
+            <span id="fav"> FAV </span>
+        </div>
+        <div> 
+            <span id="daily"> DAILY MIX </span>
+        </div>
+        <div> 
+            <span id="discover"> DISCOVER WEEKLY </span>
+        </div>
+        <div> 
+            <span id="malyalam"> MALAYALAM </span>
+        </div>
+        <div> 
+            <span id="dancepop"> DANCE/ELECTRONIX MIX </span>
+        </div>
+        <div> 
+            <span id="edm"> EDM/popular </span>
+        </div>
+
+    </div>
+    <div id="musicbar">
+
+    </div>
+    <div id="musicplaylist">
+
+    </div>
+    
+
+
+</body>
+</html>
